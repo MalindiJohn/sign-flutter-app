@@ -94,8 +94,7 @@ Configure gradle to use your upload key when building your app in release mode b
          ...
    }
    ```
-
-   -Find the `buildTypes` block:
+   - Find the `buildTypes` block:
 
    ```python
    buildTypes {
