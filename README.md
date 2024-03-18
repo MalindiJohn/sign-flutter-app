@@ -25,14 +25,13 @@ Replace the 3 dots in the path provided  by your own filepath. If you want to st
 You can use any path to store the key as long you'll remember where you stored it. In this case we gonna store it in `/data/` folder inside the project for demonstration purposes.
 
 Once you run the command , it will ask you for several information that:
-    - Set keystore password, whereby in this demo I have used `sign_flutter_app` as the keystore password
-    - Set your firs and last name, whereby in this demo gonna I have used `John` & `Doe` as first and last name respectively
-    - Set name of your organization unit, where by in this demo I have used `Flutter Team`
-    - Set name of your organization, where by in this demo I have used `Company Name`
-    - Set name of your city or locality, where by in this demo I have used `CityName`.
-    - Set name of your state or province, where by in this demo I have used `StateName`.
-    - Set two-letter country code of your country, where by in this demo I have used `US`(United States).
-    - Set email address, where by in this demo I have used `test@gmail.com`.
+- Set your first and last name, whereby in this demo gonna I have used `John` & `Doe` as first and last name respectively
+- Set name of your organization unit, where by in this demo I have used `Flutter Team`
+- Set name of your organization, where by in this demo I have used `Company Name`
+- Set name of your city or locality, where by in this demo I have used `CityName`.
+- Set name of your state or province, where by in this demo I have used `StateName`
+- Set two-letter country code of your country, where by in this demo I have used `US`(United States).
+- Set email address, where by in this demo I have used `test@gmail.com`.
 
 
 After running above command you can find generated keystore file at `.../sign_flutter_app/data/upload-keystore.jks`.
@@ -134,7 +133,7 @@ Configure gradle to use your upload key when building your app in release mode b
    flutter pub get
    ```
 
-5. Finally here we come, now you can build `appbundle` to and upload it in Google Play Console and release the app. Use this command:
+5. Finally here we come, now you can build `appbundle` file and upload it in Google Play Console and release the app. Use this command:
    ```bash
    flutter build appbundle
    ```
